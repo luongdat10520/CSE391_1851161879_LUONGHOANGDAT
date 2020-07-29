@@ -1,0 +1,18 @@
+.col-sm-6 h5 {
+    color: #85b0d5;
+}
+.col-sm-6 h6 {
+    display: inline-block;
+    width : 100%;
+    height : 40px;
+    background-color: rgb(127,194,229); 
+    padding-top: 10px;
+    padding-left: 10px;
+    color: white;
+}
+form {
+    padding-top: 10px;
+}
+.col-sm-4 {
+    border: 1px solid cyan;
+}

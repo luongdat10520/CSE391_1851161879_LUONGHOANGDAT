@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+}
+header{
+  margin: 0px;
+  align-items: center;
+}
+.top {
+  background-color: rgb(0,102,153);
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  position: relative;
+  text-size-adjust: 100%;
+  width: 100%;
+}
+.row {
+  margin: 0px;
+  margin-left: 250px;
+  margin-right: 250px;
+  display: block;
+}
+.list {
+  width: 50%;
+  display : inline-block;
+}
+.list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.list ul li {
+  float: left;
+}
+.list ul li a {
+  color:white;
+  padding-top: 10px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 5px ;
+  padding-right: 5px;
+  border-right: 1px solid white;
+  position: relative;
+}
+.language {
+  float: right;
+  padding-top: -20px;
+  padding-bottom: 10px;
+
+}
+#menu {
+  background-color: rgb(0,125,187);
+}
