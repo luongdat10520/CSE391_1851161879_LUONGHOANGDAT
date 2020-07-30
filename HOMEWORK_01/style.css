@@ -1,0 +1,21 @@
+#bai9 h2{
+    color: #cc0033;
+    text-align: center;
+    margin-bottom: 10px;
+}
+#bai9 table {
+    border-collapse: collapse;
+     text-align: center;
+    margin: 0 auto;
+    border: 1px solid #ff9933;
+}
+#bai9 th, #bai9 td {
+    border: 1px solid #ff9933;
+}
+#bai9 th {
+    background-color: #cc0033;
+    color: #fff;
+}
+td.td1 {
+    color: #cc0033;
+}

@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.left{
+    width: 100%;
+}
+.right{
+    width: 100%;
+}
+.buttonSM{
+    width: -1500px;
+    margin-left: 1000px;
+}

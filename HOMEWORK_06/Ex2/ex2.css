@@ -1,0 +1,12 @@
+.sq_b{
+    display: flex;
+}
+.sq{
+    background-color: chocolate;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    position: absolute;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}

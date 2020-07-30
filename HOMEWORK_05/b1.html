@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bài 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="b1.css">
+    <script src='https://kit.fontawesome.com/0f0388c3a3.js'></script>
+</head>
+  <body>
+    <div class="container">
+        <form class="left">
+            <h3>Personal Information</h3>
+            <hr style="border: 1px solid cornflowerblue ;"> 
+            <div class="alert alert-primary" role="alert">
+                Please fill in your personal data here!
+            </div> 
+            <div class="form-group row">
+                <label for="inputYN3" class="col-sm-3 col-form-label">Your name <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputYN3">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputAge3" class="col-sm-3 col-form-label">Age <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control" id="inputAge3">
+                </div>
+
+            </div> 
+            <div class="form-group row">
+                <label for="inputAdr3" class="col-sm-3 col-form-label">Address <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputAdr3">
+                </div>
+
+            </div> 
+            <div class="form-group row">
+                <label for="inputZip3" class="col-sm-3 col-form-label">Zip <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputZip3">
+                </div>
+
+            </div> 
+            <div class="form-group row">
+                <label for="inputCity3" class="col-sm-3 col-form-label">City <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <div class="col-sm-6">
+                    <input type="text" class="form-control" id="inputCity3">
+                </div>
+            </div> 
+        </form>
+        <form class="right">
+            <h3>Your application</h3>
+            <hr style="border: 1px solid cornflowerblue ;"> 
+            <div class="alert alert-primary" role="alert">
+                Plesase enter your application data here!
+            </div>
+            <div class="form-group col-md-4">
+                <label for="inputState">Select a job <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                <select id="inputState" class="form-control">
+                    <option selected>Choose...</option>
+                    <option>...</option>
+                </select>
+            </div>
+            <div class="row">
+                <legend class="col-form-label col-sm-2,5 pt-0">Job type <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></legend>
+                <div class="col-sm-6">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                            Fulltime
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                            Parttime
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                            less than 3 days
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option4">
+                        <label class="form-check-label" for="gridRadios4">
+                            1 day a week
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <label for="" class="character">Employmet date <i class='fab fa-diaspora' style='font-size:9px;color:red'></i></label>
+                    <input type="date" name="date" ><br><br>
+                    <label for="" class="characer-1">Cv files</label>
+                    <button><img src="https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/uwtnzh3shfme8ug1c3aq" alt="" height="15px" width="15px"></button>
+                </div>
+            </div>
+        </form>
+    </div>    
+    <div id="contact">
+        <h3>Contact Data</h3>
+        <hr style="border: 1px solid cornflowerblue ;"> 
+        <form>
+            <div class="form-group">
+                <legend class="col-form-label col-sm-6 pt-0">Phone <i class='fab fa-diaspora' style='font-size:12px;color:red'></i></legend>
+                <div class="col-sm-6">
+                    <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+                <legend class="col-form-label col-sm-6 pt-0">Email <i class='fab fa-diaspora' style='font-size:12px;color:red'></i></legend>
+                <div class="col-sm-6">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+              </div>
+        </form>
+    </div>
+    <div id="security">
+        <h3>Security</h3>
+        <hr style="border: 1px solid cornflowerblue ;"> 
+        <label for="" class="character">Security</label>
+        <img src="https://assets.newatlas.com/dims4/default/747dc68/2147483647/strip/true/crop/1800x945+0+34/resize/1200x630!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Farchive%2Fgoogle-invisible-recaptcha-1.jpg" alt="" height="300px" width="500px">
+        <hr style="border: 1px solid cornflowerblue ;"> 
+        <div class="buttonSM">
+            <button style="background-color: blue;">Summit</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+.container{
+    background-color: aqua;
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
